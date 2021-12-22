@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hép pi pợt đây</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        @keyframes anh {
+            0% {
+                color: rgba(255, 0, 0, 0.699);
+            }
+
+            50% {
+                color: rgba(255, 187, 0, 0.986);
+            }
+
+            100% {
+                color: rgba(255, 0, 0, 0.973);
+            }
+        }
+
+        
+        @keyframes anh2 {
+            0% {
+                color: rgba(204, 0, 255, 0.767);
+            }
+
+            50% {
+                color: rgba(47, 0, 255, 0.966);
+            }
+
+            100% {
+                color: rgba(204, 0, 255, 0.767);
+            }
+        }
+
+        .container {
+            position: relative;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            animation: anh 3s linear infinite forwards;
+        }
+
+        img {
+            width: 80%;
+            height: 90vh;
+            margin-left: 10%;
+        }
+
+        p {
+            font-size: 22px;
+            animation: anh2 3s linear infinite forwards;
+        }
+
+        .a {
+            position: absolute;
+            right: 20%;
+            top: 20%;
+        }
+
+        .b {
+            position: absolute;
+            right: 32%;
+            top: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            <center>HAPPY BIRTHDAY BRO</center>
+        </h1>
+        <img src="https://img.freepik.com/free-vector/happy-birthday-with-realistic-balloons-soft-colors_1361-3243.jpg?size=626&ext=jpg"
+            alt="">
+        <p class="a">Dù muộn tí nhưng mà đây là món quà online nho nhỏ tui muốn tặng bro</p>
+        <p class="b">Chúc bro tuổi mới thành công nhá</p>
+    </div>
+</body>
+
+</html>
